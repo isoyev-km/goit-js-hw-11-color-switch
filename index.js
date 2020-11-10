@@ -1,3 +1,5 @@
+"use strict";
+
 const colors = [
   "#FFFFFF",
   "#2196F3",
