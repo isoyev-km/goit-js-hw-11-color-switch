@@ -21,7 +21,7 @@ changeColorFn = () => {
   document.body.style.backgroundColor = color;
 };
 
-let interval = undefined;
+let interval = null;
 
 refs.startButton.addEventListener("click", () => {
   interval = setInterval(() => changeColorFn(), 1000);
